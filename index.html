@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    
+    <!-- =====META====== -->    
+    <meta charset="utf-8">
+	<meta name="title" content="Ignite Studios" />
+	<meta name="description" content="One Page Flow" />
+    <meta name="author" content="Kingi Gilbert">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+     
+    <title>One Page Flow</title>
+    
+</head>
+<body onLoad="show_clock()">
+    
+    
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+         
+        <div class="page_container">
+            <h1>Hi :)</h1>
+            <h2>NAVIGATING THE DIGITAL FRONTIER</h2>
+            <p>Welcome. It's <script language="javascript" src="js/liveclock.js"></script> in Maui, Hawai'i and the crew is on deck. Call or email us, real people answer.<br><br>
+
+You can follow us via facebook, twitter and email news.</p> 
+          <div class="btns">
+  	        <a class="reload btn" href="">FOLLOW | CONNECT</a>
+  	      </div>
+  	    </div>
+        
+        
+  	   <!-- <img src="phones.png" alt="phones"> -->
+        
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          <h1>Ready-to-use plugin</h1>
+          <h2>All you need is an HTML markup, call the script and BAM!</h2>
+          <code class="html">
+  	        &lt;div class="main"&gt;<br>
+  	          &lt;section&gt;...&lt;/section&gt;<br>
+  	          &lt;section&gt;...&lt;/section&gt;<br>
+  	          ...<br>
+  	        &lt;/div&gt;
+  	      </code>
+  	      
+  	      <code class="js">
+	          $(".main").onepage_scroll();
+	        </code>
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          <h1>Pretty Neat Eh?</h1>
+          <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
+          <div class="btns">
+  	        <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">SELECT WORK</a>
+  	      </div>
+  	    </div>
+      </section>
+          
+
+          
+    </div>
+      
+    <!-- =====Top Bar====== -->     
+    <a class="back" href="#"><img src="IgniteStudios_logo.svg" width="70px" height="auto"></a>
+    <a class= "ph" href="https://github.com/peachananr/onepage-scroll">808.674.7425</a>
+  
+  </div>
+    
+<!-- ------------------------------------------------------------ -->    
+    
+    <!-- =====FONTS====== -->
+<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic|Ek+Mukta:200,300' rel='stylesheet' type='text/css'>
+    <script src="//use.typekit.net/qkn6nzj.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+    
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	    
+    <!-- =====CSS====== -->    
+    <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <link href='css/default.css' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" id="favicon" href="favicon.png"> 
+      
+    <!-- =====SCRIPTS====== -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    
+    
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});	
+	</script>    
+</body>
+</html>
